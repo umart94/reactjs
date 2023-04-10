@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+
+    <div id="mydiv"></div>
+
+    <script type="text/babel">
+	/*
+	Start by including three scripts, the first two let us write React code in our JavaScripts,
+	and the third, Babel, allows us to write JSX syntax and ES6 in older browsers.
+	*/
+      function Myname() {
+        return <h1>MUHAMMAD UMAR TARIQ</h1>;
+      }
+
+      ReactDOM.render(<Myname />, document.getElementById('mydiv'))
+    </script>
+
+  </body>
+</html>

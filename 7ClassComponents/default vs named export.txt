@@ -1,0 +1,2 @@
+default export = without brackets at the top {}
+named export explicitly type brackets and import the component

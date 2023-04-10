@@ -1,0 +1,14 @@
+npx create-react-app nameOfApp
+
+then go to folder of app
+
+run : 
+
+npm start
+
+( i have copied src folder in each topic / subject, so to run the app you can copy only the src folder there.)
+node modules and package.json file ( we can create it in any project in any way)
+
+copy entire project to another location first.
+and then copy src folder to that project.
+then run project.
